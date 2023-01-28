@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+
+
+
+        <!-- card container -->
+        <div class="card-cont">
+    
+            <div class="card">
+                <div class="img" id="selector">
+                    <img src="1pic1.jpg" alt="Yumburger" id="img">
+                </div>
+    
+                <label id="name">Burger1</label>
+    
+                <p>Our langhap-sarap Yumburger is made with our signature dressing on a fresh bun.</p>
+    
+                <div class="btn">
+                    <button onclick="del('1pic1.jpg','burder1')">Delivery</button> 
+                    <button onclick="pick('Yumburger with Fries')">Pick Up</button> 
+                </div>
+    
+            </div>
+
+            <div class="card">
+                <div class="img" id="selector">
+                    <img src="pic2.webp" alt="Yumburger" id="img">
+                </div>
+    
+                <label id="name">Yumburger with Fries</label>
+    
+                <p>Our langhap-sarap Yumburger is made with our signature dressing on a fresh bun.</p>
+    
+                <div class="btn">
+                    <button onclick="del('pic2.webp','Burger2')">Delivery</button> 
+                    <button onclick="pick('Yumburger with Fries2')">Pick Up</button> 
+                </div>
+    
+            </div>
+
+        </div>    
+
+        <!-- separator -->
+	<div class="group-cont">
+		<div class="groups" >
+			<div class="label">
+				<p>Delivery</p>
+			</div>
+
+			<div class="order" id="dilvery-container">
+		
+			</div>
+		</div>
+
+		<div class="groups">
+			<div class="label">
+				<p>Pick Up</p>
+			</div>
+
+
+			<div class="order" id="Pick-up">
+				
+			</div>
+			
+			
+		</div>
+	</div>
+
+        </div>
+    
+            
+    
+</body>
+<script src="main.js"></script>
+</html>
