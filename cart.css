@@ -194,7 +194,7 @@ body{
 	justify-content: center;
 	visibility: hidden;
 	padding: 10px;
-	
+
 }
 .Pick-toogle{
 	visibility: visible;
@@ -234,6 +234,18 @@ ion-icon:hover{
 	background: #fff;
 	color: #E0163D;
 }
+center{
+		padding: 10px; 
+		with:100%; 
+		height: 90px; 
+		background: #E0163D; 
+		color: #fff;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
 
 @media only screen and (max-width:925px){
 	.group-cont{
@@ -242,6 +254,41 @@ ion-icon:hover{
 	.groups{
 		width: 100%;
 		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width:500px){
+	.container{
+		width: 100%;
+		padding: 0;
+	}
+	center{
+/*		padding: 10px; */
+		with:100%; 
+		height: 50px; 
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+	.headtext{
+		font-size: 18px;
+	}
+	.card{
+/*		max-width: 230px;*/
+/*		height: auto;*/
+		width: 80%;
+	}
+	.img{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.img img{
+		object-fit: cover;
+		padding: 20px;
+		width: auto;
+	}
+	.card-cont{
+		padding: 10px;
 	}
 }
 
