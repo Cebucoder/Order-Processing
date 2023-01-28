@@ -174,6 +174,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	visibility: hidden;
+	padding: 10px;
 }
 .Div-toogle{
 	visibility: visible;
@@ -192,6 +193,8 @@ body{
 	align-items: center;
 	justify-content: center;
 	visibility: hidden;
+	padding: 10px;
+	
 }
 .Pick-toogle{
 	visibility: visible;
