@@ -54,6 +54,16 @@ let order ={
         // promt when Item added to pickup
 
             pickpop.classList.add("Pick-toogle");
+
+            const card = document.querySelectorAll(".card");
+
+            // remcard.remove("card");
+            // removing card when click but error japun
+    for(const removeCard of card) {
+        removeCard.addEventListener('click',(event) => {
+            event.target.parentNode.parentNode.remove(card);
+        });
+    }
             
             // remcard.remove("card");
 
