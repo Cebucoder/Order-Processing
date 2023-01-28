@@ -22,8 +22,8 @@ let order ={
         // promt when Item added to dilvery
             
             devpop.classList.add("Div-toogle");
-const card = document.querySelectorAll(".card");
-            
+            const card = document.querySelectorAll(".card");
+
             // remcard.remove("card");
             // removing card when click but error japun
     for(const removeCard of card) {
