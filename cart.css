@@ -23,7 +23,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-/*	justify-content: center;*/
+	justify-content: center;
 	padding-top: 10px;
 /*	align-items: center;*/
 }
@@ -230,6 +230,16 @@ ion-icon{
 ion-icon:hover{
 	background: #fff;
 	color: #E0163D;
+}
+
+@media only screen and (max-width:925px){
+	.group-cont{
+		flex-direction: column;
+	}
+	.groups{
+		width: 100%;
+		margin: 10px 0;
+	}
 }
 
 
