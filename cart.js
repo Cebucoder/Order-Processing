@@ -22,7 +22,15 @@ let order ={
         // promt when Item added to dilvery
             
             devpop.classList.add("Div-toogle");
+const card = document.querySelectorAll(".card");
+            
             // remcard.remove("card");
+            // removing card when click but error japun
+    for(const removeCard of card) {
+        removeCard.addEventListener('click',(event) => {
+            event.target.parentNode.parentNode.remove(card);
+        });
+    }
 
 
 
@@ -78,17 +86,17 @@ function pick(img, name){
 let devclose = document.getElementById("Div-Popup");
 
 // calling card
-const card = document.querySelectorAll(".card");
+// const card = document.querySelectorAll(".card");
 
 function closedev(){
     devclose.classList.remove("Div-toogle");
    
-    // removing card when click but error japun
-    for(const removeCard of card) {
-        removeCard.addEventListener('click',(event) => {
-            event.target.parentNode.parentNode.remove(card);
-        });
-    }
+    // // removing card when click but error japun
+    // for(const removeCard of card) {
+    //     removeCard.addEventListener('click',(event) => {
+    //         event.target.parentNode.parentNode.remove(card);
+    //     });
+    // }
 }
 
 
