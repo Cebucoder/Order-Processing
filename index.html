@@ -1,57 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="cart.css">
+	<title>Separator</title>
 </head>
 <body>
 
-    <div class="container">
+
+<div class="container">
+
+	<center style="padding: 10px; with:100%; height: 90px; background: #E0163D; color: #fff;align-items: center;display: flex;justify-content: center;border-top-left-radius: 10px;border-top-right-radius: 10px;">
+		<h1 class="headtext" >
+		Pending Order's
+	</h1>
+	</center>
 
 
 
 
-        <!-- card container -->
-        <div class="card-cont">
-    
-            <div class="card">
-                <div class="img" id="selector">
-                    <img src="1pic1.jpg" alt="Yumburger" id="img">
-                </div>
-    
-                <label id="name">Burger1</label>
-    
-                <p>Our langhap-sarap Yumburger is made with our signature dressing on a fresh bun.</p>
-    
-                <div class="btn">
-                    <button onclick="del('1pic1.jpg','burder1')">Delivery</button> 
-                    <button onclick="pick('Yumburger with Fries')">Pick Up</button> 
-                </div>
-    
-            </div>
+	<!-- card container -->
+	<div class="card-cont">
 
-            <div class="card">
-                <div class="img" id="selector">
-                    <img src="pic2.webp" alt="Yumburger" id="img">
-                </div>
-    
-                <label id="name">Yumburger with Fries</label>
-    
-                <p>Our langhap-sarap Yumburger is made with our signature dressing on a fresh bun.</p>
-    
-                <div class="btn">
-                    <button onclick="del('pic2.webp','Burger2')">Delivery</button> 
-                    <button onclick="pick('Yumburger with Fries2')">Pick Up</button> 
-                </div>
-    
-            </div>
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="http://cdn.shopify.com/s/files/1/0580/3245/5858/products/yumburger.jpg?v=1634857316" alt="Yumburger" id="img">
+			</div>
 
-        </div>    
+			<label id="name">Yumburger with Fries</label>
 
-        <!-- separator -->
+			<p>Our langhap-sarap Yumburger is made with our signature dressing on a fresh bun.</p>
+
+			<div class="btn">
+				 <button onclick="del('1pic1.jpg','Yumburger with Fries')">Delivery</button> 
+                 <button onclick="pick('1pic1.jpg','Yumburger with Fries')">Pick Up</button> 
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/Original-Chicken-Sandwich_600x480px.jpg?v=1635460755&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">Original Chicken Sandwich</label>
+
+			<p>Our Original Chicken Sandwich starts with a crispy juicy</p>
+
+			<div class="btn">
+				<button onclick="del('pic2.webp','Original Chicken Sandwich')">Delivery</button>
+				<button onclick="pick('pic2.webp','Original Chicken Sandwich')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/Spicy-Chicken-sandwich.jpg?v=1635460820&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">Spicy Chicken Sandwich</label>
+
+			<p>Our Spicy Chicken Sandwich starts with a crispy juicy</p>
+
+			<div class="btn">
+				<button onclick="del('pic3.webp','Spicy Chicken Sandwich')">Delivery</button>
+				<button onclick="pick('pic3.webp','Spicy Chicken Sandwich')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/Deluxe-Chicken-Sandwich.jpg?v=1635460667&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">Deluxe Chicken Sandwich</label>
+
+			<p>Our Deluxe Chicken Sandwich starts with a crispy juicy</p>
+
+			<div class="btn">
+				<button onclick="del('pic4.webp','Deluxe Chicken Sandwich')">Delivery</button>
+				<button onclick="pick('pic4.webp','Deluxe Chicken Sandwich')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/2-Pc-Burgersteak_1-Side_600x480px.jpg?v=1632360499&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">2 Pc Burger Steak w/ 1 Side</label>
+
+			<p>2 Savory sweet beef burger patties smothered with mushroom gravy</p>
+
+			<div class="btn">
+				<button onclick="del('pic5.webp','2 Pc Burger Steak w/ 1 Side')">Delivery</button>
+				<button onclick="pick('pic5.webp','2 Pc Burger Steak w/ 1 Side')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/Burgersteak-Family-Pack_600x480px.jpg?v=1632360822&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">Burger Steak Family Pack</label>
+
+			<p>A Family Pack of our Burger Steak. Serves 4-6</p>
+
+			<div class="btn">
+				<button onclick="del('pic6.webp','Burger Steak Family Pack')">Delivery</button>
+				<button onclick="pick('pic6.webp','Burger Steak Family Pack')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/10-pc-chickenjoy-bucket.jpg?v=1635459211&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">10 Pc Chickenjoy Bucket</label>
+
+			<p>10 Pieces (5 legs, 5 thighs) of our signature crispy juicy bone-in fried chicken.</p>
+
+			<div class="btn">
+				<button onclick="del('pic7.webp','10 Pc Chickenjoy Bucket')">Delivery</button>
+				<button onclick="pick('pic7.webp','10 Pc Chickenjoy Bucket')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/2-pc-one-side-chickenjoy.jpg?v=1635459012&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">2 Pc Chickenjoy w/ 1 Side</label>
+
+			<p>A drumstick and thigh of our signature Chickenjoy fried chicken.</p>
+
+			<div class="btn">
+				<button onclick="del('pic8.webp','2 Pc Chickenjoy w/ 1 Side')">Delivery</button>
+				<button onclick="pick('pic8.webp','2 Pc Chickenjoy w/ 1 Side')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/3-pc-chickenjoy-2-sides.jpg?v=1635458104&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">3 Pc Chickenjoy w/ 2 Sides</label>
+
+			<p>3 pieces of our signature Chickenjoy crispy chicken fried chicken.</p>
+
+			<div class="btn">
+				<button onclick="del('pic9.webp','3 Pc Chickenjoy w/ 2 Sides')">Delivery</button>
+				<button onclick="pick('pic9.webp','3 Pc Chickenjoy w/ 2 Sides')">Pick Up</button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="img" id="selector">
+				<img src="https://cdn.shopify.com/s/files/1/0580/3245/5858/products/JollySpaghetti_600x480px.jpg?v=1632360978&width=600" alt="Yumburger" id="img">
+			</div>
+
+			<label id="name">Jolly Spaghetti</label>
+
+			<p>Our unique spaghetti topped with Jollibee’s signature sweet-style sauce</p>
+
+			<div class="btn">
+				<button onclick="del('pic10.webp','Jolly Spaghetti')">Delivery</button>
+				<button onclick="pick('pic10.webp','Jolly Spaghetti')">Pick Up</button>
+			</div>
+
+		</div>
+		
+	</div>
+
+
+	<!-- separator -->
 	<div class="group-cont">
 		<div class="groups" >
 			<div class="label">
@@ -69,7 +204,7 @@
 			</div>
 
 
-			<div class="order" id="Pick-up">
+			<div class="order" id="pickup-container">
 				
 			</div>
 			
@@ -77,10 +212,48 @@
 		</div>
 	</div>
 
-        </div>
-    
-            
-    
+
+
+	<!-- Dilvery Popup -->
+	<div class="Div-Popup" id="Div-Popup">
+
+		<div class="form">
+			<ion-icon name="close-outline" onclick="closedev()"></ion-icon>
+			<h1>Item Successfully Added To Delivery</h1>
+		</div>
+		
+	</div>
+
+	<!-- Dilvery Popup -->
+	<div class="Pick-Popup" id="Pick-Popup">
+
+		<div class="form">
+			<ion-icon name="close-outline" onclick="closepick()"></ion-icon>
+			<h1>Item Successfully Added To Pick-Up</h1>
+		</div>
+		
+	</div>
+
+
+</div>
+
+
+
+
 </body>
-<script src="main.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="cart.js"></script>
+
+
+<script type="text/javascript">
+	
+
+
+
+</script>
+
+
 </html>
